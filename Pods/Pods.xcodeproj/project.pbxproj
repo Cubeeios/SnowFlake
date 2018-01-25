@@ -1,0 +1,1224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01CC7BED563BC92F973240082CCC3EB5 /* Objective-Zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4C7939513E11E85B70EAA92E9FDB48 /* Objective-Zip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0517373B0CB14C9A0C864340311435FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAFE613D6D03488BDD2830FB5AD31FC /* Foundation.framework */; };
+		08040D7E83D4F1FCDBDA6E8A6E3A5EF3 /* Pods-TheOnePlus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD6A759EEE2A82E395433FC202AD3C /* Pods-TheOnePlus-dummy.m */; };
+		0BFF16CDC54ED42DF2BCAB0A025A2C42 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 711504238DC310DA48D1507D3C96B945 /* ioapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DEDD8034D379582F64147FA07EAB383 /* OZZipFile+Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B9C74F66DD0F74DE438490C7F52BD9 /* OZZipFile+Standard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17A6C6141E878921A935125A7E83D572 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6F86249F7B604EE7DB32C1AC27022A /* GCDWebServerErrorResponse.m */; };
+		187477EF7322C41175AC98B209F23B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAFE613D6D03488BDD2830FB5AD31FC /* Foundation.framework */; };
+		1B0CD871957F5030FAACDB5D2A544A3D /* OZZipReadStream+Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = 948EB0A192AA50BEC9114FD0CBFA25B6 /* OZZipReadStream+Standard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D9C6C52A0AE89EF232EC3DF2085BB23 /* zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = E73F7E8BD560EA68CB1CA2D48CB7ECF6 /* zlib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24FE87BB7A3BEEC3B95E45C6BB2CC4EC /* inftrees.h in Headers */ = {isa = PBXBuildFile; fileRef = 629FE9B7AD1E53172FFC46A4C8F3CAF6 /* inftrees.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		25059E89AF00C0933C17813BE714AAD8 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 41E05E4F9B95331622CF81144CD81B87 /* ioapi.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		26A6358CBA97ABCBB95469F14BE8DCF8 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = D473959E79775600CB9BB60DFA8E7D6C /* crc32.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2B93EAE7C1711D51F1040A8FA118253F /* OZZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD0FC6F28EBE38ED36A954E28881353 /* OZZipWriteStream.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2C64070AB58020657C89C66D3697EEE1 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 9821A74A653D7A022FBC67322A5E2857 /* crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		388A0F9DB9DD45D2A983F6CC803A9839 /* OZZipException.m in Sources */ = {isa = PBXBuildFile; fileRef = F52A2D839FC08894AE5C9B729DC3809C /* OZZipException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3A40B0273EBE8F2A5330AD047FE10B6D /* deflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BEFF47E30E97CDA160C42FCADF973E8 /* deflate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B7554FE6AAD63F8AF65CA5ED3141A7C /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D557E6DC2242F2C06F8D1CCE585E64BF /* GCDWebServerDataResponse.m */; };
+		3E6BB057645053296248EFAECD2C332B /* OZZipFileMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 643B89B15FAD8ACAFA7E5D988BE995FE /* OZZipFileMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40A6210EE9281EEA0CC22A66C85A74B4 /* Pods-TheOnePlusTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 003095FE451D65B900ED847045CBA3CE /* Pods-TheOnePlusTests-dummy.m */; };
+		46038618276079EED5675FDB775E3167 /* OZZipReadStream+NSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B3EC59351A9D418B0959A6EE9F1518 /* OZZipReadStream+NSError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4631CF4F8925E6ECA17190649F3D9540 /* OZZipFile+NSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 5756A50CBAD2ADB6E2650FF75FC626C9 /* OZZipFile+NSError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A63D09D0644A54AD9064A040128979 /* OZZipException+Internals.h in Headers */ = {isa = PBXBuildFile; fileRef = 668D464B8CE622D98CD749060FE62FA9 /* OZZipException+Internals.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4904098367CDCC52AD03F11B7FDD0652 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE67C92CD6E530F96BAB114EB235871 /* unzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5055BEE9A95B3361C2EDCF1B60B643B7 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = DB1B891F54C6A9A3E8696232D562C803 /* adler32.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		509EE6A28F7B2B0F54A0D4A63CFF2101 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2FC2356FF4AD42DFB393E604A6173 /* inftrees.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		528723317954B1D0AF5AB63A2F74F2D8 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5961E968A3F57178A7602A25097DBA /* GCDWebServerResponse.m */; };
+		53D351E0789DC20EBFFD379BBEA50A22 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6BEF7B7625593842989AC44273BEF2 /* GCDWebServerConnection.m */; };
+		54F6C1DD0DAC79ADCC7178EA81760558 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F65E9CB15E63B84067DFD0F198E5DA1 /* GCDWebServerFileResponse.m */; };
+		5969C757CE145FEF447C2AA8AE1D1C63 /* objective-zip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A030D49C43095003F63F2DCCFA1DC9 /* objective-zip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D4C34858EC397A03E41BF60633BA4E /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E5578B41048DFC033F65A143CD993 /* gzread.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		620C6443B0AB1E93F292E3C5B892E670 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 4EF73BC281E8E44DB671D5F3DFE7BF1B /* gzlib.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		62E543AFAF89752AB51EEEDE83439292 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B93C209D3EBD6E3CC536F3BD68271E27 /* GCDWebServerDataRequest.m */; };
+		6551178D478883EF60D81FEDFC27493D /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 54119EC55B8699FAAF9313BDD6BFDE80 /* zip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		68F975191AD94A813469E43D0EBEA8D3 /* zutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EB8AE953C4C623CB6A44A33F53341D /* zutil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B80C04509C2C2D5835E7BA7DAA79149 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 10DA05B4852AC10386580D22B10D5BD2 /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C2D5C5F633436CB95B533DF89C54331 /* OZFileInZipInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FBB064FF6BDBB2D5FDBD4F030C99833 /* OZFileInZipInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D57C25D7F12F0DB283D61269A2B1C13 /* crc32.h in Headers */ = {isa = PBXBuildFile; fileRef = E5AE672318B747C05ED9E204F2E23840 /* crc32.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		712EB11F6DDD5372AFAF45439DE5EE7A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915DFDF33AD8CC026A6227714AA70585 /* CFNetwork.framework */; };
+		722A5AF46F8C5D56564E86D84F29347E /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E87FE534A5617F16E5559A2B3EF23A6B /* GCDWebServerRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		758D8A48DA34099164E329FC89A510AF /* Objective-Zip+NSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 2303316A05E48E17CEC56EEBE929F53B /* Objective-Zip+NSError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76EA0DB3D0E52109CBF1803B04FA9B40 /* OZZipWriteStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 59BF80D4A6CCAF55ECB85E062A7943EE /* OZZipWriteStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ACB219B50BF7C921B4C5EA96367ECD4 /* OZZipException.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B02E1E4CE0CC73D0A014BCDC5E0D0B8 /* OZZipException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B644CDEFB1543D7A7642386B7B71CB0 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB5D8BFB8001D2FB055426602FEA14C /* GCDWebServerFileRequest.m */; };
+		7E7FD57AF138183D9FF3658B84E6C0A0 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A97A760F009C9362E42F1A4E4F4CAFC /* GCDWebServerURLEncodedFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FAF962B8C7835FE24B87E0491ABD3BF /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 938A2D4BAE22BC14B4BAB8E2E9CA1B7C /* GCDWebServerDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86230137AACC52F4BA830C01E1890502 /* OZZipWriteStream+Internals.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DFA89073BECC79ABC7839DDA643D68 /* OZZipWriteStream+Internals.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		872E9FD6472730C9F337847CDC19446D /* trees.h in Headers */ = {isa = PBXBuildFile; fileRef = D3F8C0F13C09C86A7B96BEA09054892E /* trees.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8996AAE15D147417F2B28C49100CA0C3 /* inffixed.h in Headers */ = {isa = PBXBuildFile; fileRef = 62591648B3872BEA59B2DF53D9403B3C /* inffixed.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89D1A50922028B7D2B185F4A675B4D7D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B83D360A162650AB55409AB85C29D8C /* MobileCoreServices.framework */; };
+		89E8B87AC9B6F3C6C22E6A8125D539A3 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 7E6278D9442A30A7EBD1DB846D69E243 /* inflate.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8A6B1F6E97C96132FA8A7BABA1CB59B9 /* OZZipWriteStream+Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = A629558F3FFFB88D1628DB4F167A71D7 /* OZZipWriteStream+Standard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B42A796A4A2D0DAB57B25CAAF7E52CA /* objective-zip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4309E2D2864A89B78C42B7E56DEE1A3 /* objective-zip-dummy.m */; };
+		8C129612B02A6F3036D9635269019A6D /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 14EF202AB03BC418FDD30FE6A7665EC8 /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92E32FA4CA96E4CE90B65321E481CB69 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 966C6DE645AC5283E822D0D958E7CF7C /* uncompr.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		93F748D723B8A26F9F86DEE7517ECE3E /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = F36F15769B8AF1D0F3F70A6C6817092F /* GCDWebServerDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95FCA635A5A23F33DD4AC6BAF8049968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAFE613D6D03488BDD2830FB5AD31FC /* Foundation.framework */; };
+		969735D69905A7CE3FBCF3F24CBD2071 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = D200BCBCC68445EF38AD26AB0DBECBC8 /* trees.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		979558C00E5F8A275186527D1E195A38 /* OZZipReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 85105E7A9271C881A8F3587DD16CD456 /* OZZipReadStream.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9BB24A1030A95E2D99B669016488EE59 /* OZFileInZipInfo+Internals.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DBE7811D58990FDFC1552857269FFD /* OZFileInZipInfo+Internals.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9DE73E9716BABA5D3BF9A2CE378A74DB /* zconf.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E17FEC5749B188F168C23C2CA8FC1E /* zconf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1499995256A0AE4B16C6C69065DB212 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = AD84F599E32E0A644C297C7C82F54089 /* inffast.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A7DB03F2E311A12C08C6ABA437DA5D7D /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = C26E84336287A424923E8185726147F5 /* GCDWebServerHTTPStatusCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA7BBB6E29D7F28E69B81F07854F18AD /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C490A9D26E437188DB7C21EA936AFB /* GCDWebServerRequest.m */; };
+		B4911B17CF238F3346307208CB00AEB2 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F9138580C81851C4CBF1AFAF391570D7 /* GCDWebServerFileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4C20ADC12DD29244C39CD8FDA40B96F /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 24867CCA5A5EB57AF04707900858F956 /* infback.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B91C37A667572E83ED642C300636947A /* inffast.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B6A8EE2EBD072CC532A1BBEE964B5 /* inffast.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BEC201BABAE91076042A1E129F4DA3C3 /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4841F9A9D5E2A79EC2CD414C14C279 /* GCDWebServerConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF2F9CB14A46386124DA587D5601A8CF /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E601B3628254D80B061440DB53BF6309 /* GCDWebServerFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFCC96B07137471CEBD04589F3FF98C5 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F690AEFA7533914322AB9A25EA67209 /* GCDWebServerFunctions.m */; };
+		C0C767CEEC23B87C28E12514EB40B595 /* GCDWebServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6FF67C29131D724E7FBE02F304AB9B /* GCDWebServer-dummy.m */; };
+		C379F7F0202E7678A76B1071F245D0F4 /* OZZipReadStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB22175C0FCD15005B016CFCCF1A5C9 /* OZZipReadStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7C59EABCA3DDF9027315567A86633C9 /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 32536385980050F9E865517962806B8A /* GCDWebServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C858B21AC2ADD19BAB4B61055F5E8795 /* OZZipReadStream+Internals.h in Headers */ = {isa = PBXBuildFile; fileRef = F1659D551CB383F947F964721167AEAA /* OZZipReadStream+Internals.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA626FA4E095B938ADE36DE43A6B841B /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3915B6C16B3B37EF5A9E34B54A3C05CB /* GCDWebServerStreamedResponse.m */; };
+		CD174AC5EEDA541A985DB0A2D360905A /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = D39075189433FA1167C2F26698774CD3 /* zutil.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D157BD05CE981DC22C4CF6B1282D4691 /* OZZipCompressionLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBB4263F8FE46E35853051B9F10BC25 /* OZZipCompressionLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D403DA9FDFF1CB438432D2A886EE95D0 /* Pods-TheOnePlus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7AA11EC899493A4B51712D57A3D63D /* Pods-TheOnePlus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48CB58BEBA9E67AF8D6325C862EF672 /* OZFileInZipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E374E6482C2A0804E73BE9C7AE809F /* OZFileInZipInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D4DE030190B007AACA278FC58074ADAE /* OZZipFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BA167B46EE24F9857090B6057C7730FF /* OZZipFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6CB3B96FE8AE0307F1F8959E648056C /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B8217DD7A410EB6D084DD973FC4837F /* GCDWebServerMultiPartFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D776816EC5CF8AC86FB6925A8861B2CB /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D6ED2E03ECFEC5FC6ABDB756CEDA94C /* gzwrite.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D7DEF1435ABFEFA3C36D3AACB4C66A2C /* inflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FEF35D438AE643610C2667B269027B9 /* inflate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D7F04B2D4234193B1F2E2419B9B3052E /* gzguts.h in Headers */ = {isa = PBXBuildFile; fileRef = A91BF13FC3258BD4D4099D3A1AF4E4A0 /* gzguts.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D81236F79446F4436298DF6679A2DF6E /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = B76A7D94488F68A52B0F47C612BD4234 /* deflate.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D968E3B8DD541A17BEC730B7002FC70A /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0F29403DC8027E048635E3A33503A9 /* GCDWebServer.m */; };
+		D998684C967981EFDF71596CE21EA263 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = D5A5E9BCBC8608C10DA0FDF782AA1CCC /* gzclose.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DC031CF0E61CC9BB8CA74D347D6AF8AB /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 52883EFCB962D56B987EB18F2069389C /* GCDWebServerPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DC09F868362D0A2A04B9F976EA736327 /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 75055678ADED819CE76446F167EB1D96 /* GCDWebServerErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCD9459B7CF7E6187B21DAF947D97DE3 /* OZZipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E402EE03E3CC398577E176B3EC96B56D /* OZZipFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DE59D3775F15714D2A4D6E0493982534 /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 33AF4DFD274FC369A5A768FB1C9B05EF /* GCDWebServerFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3EE1E3AA75AC6BAFE131D12A5B73081 /* OZZipWriteStream+NSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 814EEEA6DC0364100744FDB76E084651 /* OZZipWriteStream+NSError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9FA66200123610C2387FF3196460246 /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E61FC6FC3940315957ECAA164B6ECA8 /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB45FFFB4A286FE9DD0F1E762954608C /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CE3BD8F0645FBA9DC5305F4F4109606 /* unzip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EEB9FCB27A7C0B32908770E6A49472E8 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 3474803106AE844B2C212F4CF470E6BA /* compress.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EEDC6F805D83C380D14C45A773AF430D /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498AC33DCD2548111928AB38A03F975 /* GCDWebServerURLEncodedFormRequest.m */; };
+		F5D8EE4CDB10BCD75524B20682CD8D34 /* Pods-TheOnePlusTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0974F0B262DE347228D800C939154415 /* Pods-TheOnePlusTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6D39919E7A93EF730A42C5454FE14DA /* GCDWebServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C553D552B9477C9916566B196B3F2E06 /* GCDWebServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F709CDA8E32FD850396F71FA35DE1C1C /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BC586E50073DB4E337667539E507A0B5 /* GCDWebServerMultiPartFormRequest.m */; };
+		FDFE68B35004156B109C23747B524140 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAFE613D6D03488BDD2830FB5AD31FC /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C7CB5254D6302CEDE4F6738D02E4210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CD5D4A8EC8527E51F41D042C632C612;
+			remoteInfo = "objective-zip";
+		};
+		CD8272BD796B654EE277A6CCDABFB723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1252D2FE5A3F0266E8959BB670344352;
+			remoteInfo = GCDWebServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003095FE451D65B900ED847045CBA3CE /* Pods-TheOnePlusTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TheOnePlusTests-dummy.m"; sourceTree = "<group>"; };
+		0974F0B262DE347228D800C939154415 /* Pods-TheOnePlusTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TheOnePlusTests-umbrella.h"; sourceTree = "<group>"; };
+		0AB22175C0FCD15005B016CFCCF1A5C9 /* OZZipReadStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OZZipReadStream.h; path = "Objective-Zip/OZZipReadStream.h"; sourceTree = "<group>"; };
+		0B83D360A162650AB55409AB85C29D8C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		0CD0FC6F28EBE38ED36A954E28881353 /* OZZipWriteStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OZZipWriteStream.m; path = "Objective-Zip/OZZipWriteStream.m"; sourceTree = "<group>"; };
+		0F690AEFA7533914322AB9A25EA67209 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFunctions.m; path = GCDWebServer/Core/GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		0FBB064FF6BDBB2D5FDBD4F030C99833 /* OZFileInZipInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OZFileInZipInfo.h; path = "Objective-Zip/OZFileInZipInfo.h"; sourceTree = "<group>"; };
+		10A030D49C43095003F63F2DCCFA1DC9 /* objective-zip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "objective-zip-umbrella.h"; sourceTree = "<group>"; };
+		10DA05B4852AC10386580D22B10D5BD2 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		1498AC33DCD2548111928AB38A03F975 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		14EF202AB03BC418FDD30FE6A7665EC8 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = MiniZip/zip.h; sourceTree = "<group>"; };
+		15EB8AE953C4C623CB6A44A33F53341D /* zutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zutil.h; path = ZLib/zutil.h; sourceTree = "<group>"; };
+		16C13498EB2DFA6C750772154327B31B /* Pods_TheOnePlusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TheOnePlusTests.framework; path = "Pods-TheOnePlusTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1826FF6288016971C05857D1492460EC /* GCDWebServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.xcconfig; sourceTree = "<group>"; };
+		19E374E6482C2A0804E73BE9C7AE809F /* OZFileInZipInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OZFileInZipInfo.m; path = "Objective-Zip/OZFileInZipInfo.m"; sourceTree = "<group>"; };
+		1AFD6A759EEE2A82E395433FC202AD3C /* Pods-TheOnePlus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TheOnePlus-dummy.m"; sourceTree = "<group>"; };
+		1E61FC6FC3940315957ECAA164B6ECA8 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = GCDWebServer/Core/GCDWebServerResponse.h; sourceTree = "<group>"; };
+		1F65E9CB15E63B84067DFD0F198E5DA1 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileResponse.m; path = GCDWebServer/Responses/GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		21D8B4982198F4CFB9CB04C9F607757F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2303316A05E48E17CEC56EEBE929F53B /* Objective-Zip+NSError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Objective-Zip+NSError.h"; path = "Objective-Zip/Objective-Zip+NSError.h"; sourceTree = "<group>"; };
+		24867CCA5A5EB57AF04707900858F956 /* infback.c */ = {isa = PBXFileReference; includeInIndex = 1; name = infback.c; path = ZLib/infback.c; sourceTree = "<group>"; };
+		296EFC26F97F93713A34CD5580DEFC80 /* objective-zip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "objective-zip.xcconfig"; sourceTree = "<group>"; };
+		2D6ED2E03ECFEC5FC6ABDB756CEDA94C /* gzwrite.c */ = {isa = PBXFileReference; includeInIndex = 1; name = gzwrite.c; path = ZLib/gzwrite.c; sourceTree = "<group>"; };
+		2DB5D8BFB8001D2FB055426602FEA14C /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = GCDWebServer/Requests/GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		2DF566D4E24D2FB789BAE200D649F4C2 /* Pods-TheOnePlus-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TheOnePlus-resources.sh"; sourceTree = "<group>"; };
+		2FEF35D438AE643610C2667B269027B9 /* inflate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = inflate.h; path = ZLib/inflate.h; sourceTree = "<group>"; };
+		32536385980050F9E865517962806B8A /* GCDWebServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = GCDWebServer/Core/GCDWebServer.h; sourceTree = "<group>"; };
+		33AF4DFD274FC369A5A768FB1C9B05EF /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = GCDWebServer/Core/GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		3474803106AE844B2C212F4CF470E6BA /* compress.c */ = {isa = PBXFileReference; includeInIndex = 1; name = compress.c; path = ZLib/compress.c; sourceTree = "<group>"; };
+		3915B6C16B3B37EF5A9E34B54A3C05CB /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerStreamedResponse.m; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		3AD569E52B7427B5A6FE64552036D1A1 /* Pods-TheOnePlusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TheOnePlusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B02E1E4CE0CC73D0A014BCDC5E0D0B8 /* OZZipException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OZZipException.h; path = "Objective-Zip/OZZipException.h"; sourceTree = "<group>"; };
+		3B8217DD7A410EB6D084DD973FC4837F /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		41E05E4F9B95331622CF81144CD81B87 /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi.c; path = MiniZip/ioapi.c; sourceTree = "<group>"; };
+		459D403BA14CB99BC0E024558DDA7E78 /* Pods-TheOnePlusTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TheOnePlusTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4BEFF47E30E97CDA160C42FCADF973E8 /* deflate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = deflate.h; path = ZLib/deflate.h; sourceTree = "<group>"; };
+		4EF73BC281E8E44DB671D5F3DFE7BF1B /* gzlib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = gzlib.c; path = ZLib/gzlib.c; sourceTree = "<group>"; };
+		52883EFCB962D56B987EB18F2069389C /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = GCDWebServer/Core/GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		54119EC55B8699FAAF9313BDD6BFDE80 /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = zip.c; path = MiniZip/zip.c; sourceTree = "<group>"; };
+		550B6A8EE2EBD072CC532A1BBEE964B5 /* inffast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = inffast.h; path = ZLib/inffast.h; sourceTree = "<group>"; };
+		5756A50CBAD2ADB6E2650FF75FC626C9 /* OZZipFile+NSError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OZZipFile+NSError.h"; path = "Objective-Zip/OZZipFile+NSError.h"; sourceTree = "<group>"; };
+		57BE2E869512D26511DC044507DA4C85 /* Pods-TheOnePlus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TheOnePlus.modulemap"; sourceTree = "<group>"; };
+		59BF80D4A6CCAF55ECB85E062A7943EE /* OZZipWriteStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OZZipWriteStream.h; path = "Objective-Zip/OZZipWriteStream.h"; sourceTree = "<group>"; };
+		62591648B3872BEA59B2DF53D9403B3C /* inffixed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = inffixed.h; path = ZLib/inffixed.h; sourceTree = "<group>"; };
+		629FE9B7AD1E53172FFC46A4C8F3CAF6 /* inftrees.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = inftrees.h; path = ZLib/inftrees.h; sourceTree = "<group>"; };
+		643B89B15FAD8ACAFA7E5D988BE995FE /* OZZipFileMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OZZipFileMode.h; path = "Objective-Zip/OZZipFileMode.h"; sourceTree = "<group>"; };
+		668D464B8CE622D98CD749060FE62FA9 /* OZZipException+Internals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OZZipException+Internals.h"; path = "Objective-Zip/OZZipException+Internals.h"; sourceTree = "<group>"; };
+		6A97A760F009C9362E42F1A4E4F4CAFC /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		6B604DE858FEC6304553B040E239C3D2 /* objective_zip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = objective_zip.framework; path = "objective-zip.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4C7939513E11E85B70EAA92E9FDB48 /* Objective-Zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Objective-Zip.h"; path = "Objective-Zip/Objective-Zip.h"; sourceTree = "<group>"; };
+		6EAFE613D6D03488BDD2830FB5AD31FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F5961E968A3F57178A7602A25097DBA /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
+		70FA9DB91951ABC8D3FFE028FC04E647 /* Pods-TheOnePlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TheOnePlus.release.xcconfig"; sourceTree = "<group>"; };
+		711504238DC310DA48D1507D3C96B945 /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = MiniZip/ioapi.h; sourceTree = "<group>"; };
+		72B3EC59351A9D418B0959A6EE9F1518 /* OZZipReadStream+NSError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OZZipReadStream+NSError.h"; path = "Objective-Zip/OZZipReadStream+NSError.h"; sourceTree = "<group>"; };
+		75055678ADED819CE76446F167EB1D96 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = GCDWebServer/Responses/GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		7B5B03197297703046E1108280D6B264 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6278D9442A30A7EBD1DB846D69E243 /* inflate.c */ = {isa = PBXFileReference; includeInIndex = 1; name = inflate.c; path = ZLib/inflate.c; sourceTree = "<group>"; };
+		814EEEA6DC0364100744FDB76E084651 /* OZZipWriteStream+NSError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OZZipWriteStream+NSError.h"; path = "Objective-Zip/OZZipWriteStream+NSError.h"; sourceTree = "<group>"; };
+		85105E7A9271C881A8F3587DD16CD456 /* OZZipReadStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OZZipReadStream.m; path = "Objective-Zip/OZZipReadStream.m"; sourceTree = "<group>"; };
+		88B9C74F66DD0F74DE438490C7F52BD9 /* OZZipFile+Standard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OZZipFile+Standard.h"; path = "Objective-Zip/OZZipFile+Standard.h"; sourceTree = "<group>"; };
+		8CE3BD8F0645FBA9DC5305F4F4109606 /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = unzip.c; path = MiniZip/unzip.c; sourceTree = "<group>"; };
+		8E78F4126737C78DDEFDDBF811532DEE /* Pods-TheOnePlusTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TheOnePlusTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E7AA11EC899493A4B51712D57A3D63D /* Pods-TheOnePlus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TheOnePlus-umbrella.h"; sourceTree = "<group>"; };
+		8FA2FC2356FF4AD42DFB393E604A6173 /* inftrees.c */ = {isa = PBXFileReference; includeInIndex = 1; name = inftrees.c; path = ZLib/inftrees.c; sourceTree = "<group>"; };
+		915DFDF33AD8CC026A6227714AA70585 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		938A2D4BAE22BC14B4BAB8E2E9CA1B7C /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataRequest.h; path = GCDWebServer/Requests/GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948EB0A192AA50BEC9114FD0CBFA25B6 /* OZZipReadStream+Standard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OZZipReadStream+Standard.h"; path = "Objective-Zip/OZZipReadStream+Standard.h"; sourceTree = "<group>"; };
+		966C6DE645AC5283E822D0D958E7CF7C /* uncompr.c */ = {isa = PBXFileReference; includeInIndex = 1; name = uncompr.c; path = ZLib/uncompr.c; sourceTree = "<group>"; };
+		96D27EB192CD13417DC7F26B4D786C52 /* objective-zip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "objective-zip.modulemap"; sourceTree = "<group>"; };
+		9821A74A653D7A022FBC67322A5E2857 /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = MiniZip/crypt.h; sourceTree = "<group>"; };
+		9F0E5578B41048DFC033F65A143CD993 /* gzread.c */ = {isa = PBXFileReference; includeInIndex = 1; name = gzread.c; path = ZLib/gzread.c; sourceTree = "<group>"; };
+		9F91EC485CD5B24DEE27514DE37B9DFA /* Pods-TheOnePlusTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TheOnePlusTests-resources.sh"; sourceTree = "<group>"; };
+		A4309E2D2864A89B78C42B7E56DEE1A3 /* objective-zip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "objective-zip-dummy.m"; sourceTree = "<group>"; };
+		A629558F3FFFB88D1628DB4F167A71D7 /* OZZipWriteStream+Standard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OZZipWriteStream+Standard.h"; path = "Objective-Zip/OZZipWriteStream+Standard.h"; sourceTree = "<group>"; };
+		A91BF13FC3258BD4D4099D3A1AF4E4A0 /* gzguts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gzguts.h; path = ZLib/gzguts.h; sourceTree = "<group>"; };
+		A96DFA2301E1AF6007E1DB669F3DDC0A /* GCDWebServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GCDWebServer.modulemap; sourceTree = "<group>"; };
+		AA4841F9A9D5E2A79EC2CD414C14C279 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerConnection.h; path = GCDWebServer/Core/GCDWebServerConnection.h; sourceTree = "<group>"; };
+		AD84F599E32E0A644C297C7C82F54089 /* inffast.c */ = {isa = PBXFileReference; includeInIndex = 1; name = inffast.c; path = ZLib/inffast.c; sourceTree = "<group>"; };
+		B031CEFA3BAC5CEA290FB1A50F82CE8E /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCDWebServer.framework; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E17FEC5749B188F168C23C2CA8FC1E /* zconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zconf.h; path = ZLib/zconf.h; sourceTree = "<group>"; };
+		B43DCB8183580047E8C0829F698EA6E7 /* Pods_TheOnePlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TheOnePlus.framework; path = "Pods-TheOnePlus.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76A7D94488F68A52B0F47C612BD4234 /* deflate.c */ = {isa = PBXFileReference; includeInIndex = 1; name = deflate.c; path = ZLib/deflate.c; sourceTree = "<group>"; };
+		B93C209D3EBD6E3CC536F3BD68271E27 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = GCDWebServer/Requests/GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		BA0982DF7132587E882E71D69C5B6684 /* Pods-TheOnePlus-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TheOnePlus-frameworks.sh"; sourceTree = "<group>"; };
+		BA167B46EE24F9857090B6057C7730FF /* OZZipFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OZZipFile.h; path = "Objective-Zip/OZZipFile.h"; sourceTree = "<group>"; };
+		BA86E6ADA749885AEFDB84D14B432F6A /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
+		BBBB4263F8FE46E35853051B9F10BC25 /* OZZipCompressionLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OZZipCompressionLevel.h; path = "Objective-Zip/OZZipCompressionLevel.h"; sourceTree = "<group>"; };
+		BC0D50B093914B106AFB37D2411BA463 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC586E50073DB4E337667539E507A0B5 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerMultiPartFormRequest.m; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		BC6F86249F7B604EE7DB32C1AC27022A /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = GCDWebServer/Responses/GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		BF6483128F91B59CE9CDE160477485D9 /* Pods-TheOnePlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TheOnePlus.debug.xcconfig"; sourceTree = "<group>"; };
+		C26E84336287A424923E8185726147F5 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		C429AD1C7588F13D4F91587DE9050541 /* objective-zip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "objective-zip-prefix.pch"; sourceTree = "<group>"; };
+		C553D552B9477C9916566B196B3F2E06 /* GCDWebServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-umbrella.h"; sourceTree = "<group>"; };
+		C5A262D487E2C3A86698CFE419467DA2 /* Pods-TheOnePlusTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TheOnePlusTests.modulemap"; sourceTree = "<group>"; };
+		CA6FF67C29131D724E7FBE02F304AB9B /* GCDWebServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCDWebServer-dummy.m"; sourceTree = "<group>"; };
+		D200BCBCC68445EF38AD26AB0DBECBC8 /* trees.c */ = {isa = PBXFileReference; includeInIndex = 1; name = trees.c; path = ZLib/trees.c; sourceTree = "<group>"; };
+		D2DFA89073BECC79ABC7839DDA643D68 /* OZZipWriteStream+Internals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OZZipWriteStream+Internals.h"; path = "Objective-Zip/OZZipWriteStream+Internals.h"; sourceTree = "<group>"; };
+		D39075189433FA1167C2F26698774CD3 /* zutil.c */ = {isa = PBXFileReference; includeInIndex = 1; name = zutil.c; path = ZLib/zutil.c; sourceTree = "<group>"; };
+		D3F8C0F13C09C86A7B96BEA09054892E /* trees.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = trees.h; path = ZLib/trees.h; sourceTree = "<group>"; };
+		D473959E79775600CB9BB60DFA8E7D6C /* crc32.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crc32.c; path = ZLib/crc32.c; sourceTree = "<group>"; };
+		D557E6DC2242F2C06F8D1CCE585E64BF /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = GCDWebServer/Responses/GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		D5A5E9BCBC8608C10DA0FDF782AA1CCC /* gzclose.c */ = {isa = PBXFileReference; includeInIndex = 1; name = gzclose.c; path = ZLib/gzclose.c; sourceTree = "<group>"; };
+		D9DBE7811D58990FDFC1552857269FFD /* OZFileInZipInfo+Internals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OZFileInZipInfo+Internals.h"; path = "Objective-Zip/OZFileInZipInfo+Internals.h"; sourceTree = "<group>"; };
+		DB1B891F54C6A9A3E8696232D562C803 /* adler32.c */ = {isa = PBXFileReference; includeInIndex = 1; name = adler32.c; path = ZLib/adler32.c; sourceTree = "<group>"; };
+		DBD255AB29FE0BA1FDAFD2EAE61DD06A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6BEF7B7625593842989AC44273BEF2 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = GCDWebServer/Core/GCDWebServerConnection.m; sourceTree = "<group>"; };
+		DCE67C92CD6E530F96BAB114EB235871 /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = MiniZip/unzip.h; sourceTree = "<group>"; };
+		DF0F29403DC8027E048635E3A33503A9 /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
+		DFA467FB68548EABB823DC8279CD9451 /* Pods-TheOnePlusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TheOnePlusTests.release.xcconfig"; sourceTree = "<group>"; };
+		E06DE3999F2C28F34F182B2794E4DADA /* Pods-TheOnePlusTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TheOnePlusTests-frameworks.sh"; sourceTree = "<group>"; };
+		E402EE03E3CC398577E176B3EC96B56D /* OZZipFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OZZipFile.m; path = "Objective-Zip/OZZipFile.m"; sourceTree = "<group>"; };
+		E5AE672318B747C05ED9E204F2E23840 /* crc32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crc32.h; path = ZLib/crc32.h; sourceTree = "<group>"; };
+		E601B3628254D80B061440DB53BF6309 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileResponse.h; path = GCDWebServer/Responses/GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		E6C490A9D26E437188DB7C21EA936AFB /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
+		E73F7E8BD560EA68CB1CA2D48CB7ECF6 /* zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zlib.h; path = ZLib/zlib.h; sourceTree = "<group>"; };
+		E80165972B5BF02A1BB00932426968C1 /* Pods-TheOnePlus-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TheOnePlus-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E87FE534A5617F16E5559A2B3EF23A6B /* GCDWebServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = GCDWebServer/Core/GCDWebServerRequest.h; sourceTree = "<group>"; };
+		F1659D551CB383F947F964721167AEAA /* OZZipReadStream+Internals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OZZipReadStream+Internals.h"; path = "Objective-Zip/OZZipReadStream+Internals.h"; sourceTree = "<group>"; };
+		F36F15769B8AF1D0F3F70A6C6817092F /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataResponse.h; path = GCDWebServer/Responses/GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		F52A2D839FC08894AE5C9B729DC3809C /* OZZipException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OZZipException.m; path = "Objective-Zip/OZZipException.m"; sourceTree = "<group>"; };
+		F9138580C81851C4CBF1AFAF391570D7 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileRequest.h; path = GCDWebServer/Requests/GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		FF8C7449CEA151860EB4C83648AEC354 /* Pods-TheOnePlus-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TheOnePlus-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A02F9AF91BB22E0DB33D08715332087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0517373B0CB14C9A0C864340311435FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57065AD85CC2311837B3A6444166A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187477EF7322C41175AC98B209F23B50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4492D2026C6838F33DD08B302F3E503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712EB11F6DDD5372AFAF45439DE5EE7A /* CFNetwork.framework in Frameworks */,
+				FDFE68B35004156B109C23747B524140 /* Foundation.framework in Frameworks */,
+				89D1A50922028B7D2B185F4A675B4D7D /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA170F1A5B19A40E6ADA8C6344077464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FCA635A5A23F33DD4AC6BAF8049968 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADCB15BDF581CC579CFB5E9B75661C0E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CCC49CABC9225DEE43899211F7B6F41 /* Pods-TheOnePlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC0D50B093914B106AFB37D2411BA463 /* Info.plist */,
+				C5A262D487E2C3A86698CFE419467DA2 /* Pods-TheOnePlusTests.modulemap */,
+				459D403BA14CB99BC0E024558DDA7E78 /* Pods-TheOnePlusTests-acknowledgements.markdown */,
+				8E78F4126737C78DDEFDDBF811532DEE /* Pods-TheOnePlusTests-acknowledgements.plist */,
+				003095FE451D65B900ED847045CBA3CE /* Pods-TheOnePlusTests-dummy.m */,
+				E06DE3999F2C28F34F182B2794E4DADA /* Pods-TheOnePlusTests-frameworks.sh */,
+				9F91EC485CD5B24DEE27514DE37B9DFA /* Pods-TheOnePlusTests-resources.sh */,
+				0974F0B262DE347228D800C939154415 /* Pods-TheOnePlusTests-umbrella.h */,
+				3AD569E52B7427B5A6FE64552036D1A1 /* Pods-TheOnePlusTests.debug.xcconfig */,
+				DFA467FB68548EABB823DC8279CD9451 /* Pods-TheOnePlusTests.release.xcconfig */,
+			);
+			name = "Pods-TheOnePlusTests";
+			path = "Target Support Files/Pods-TheOnePlusTests";
+			sourceTree = "<group>";
+		};
+		296A020EF8957D44386EA9B2BBE0CFB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A96DFA2301E1AF6007E1DB669F3DDC0A /* GCDWebServer.modulemap */,
+				1826FF6288016971C05857D1492460EC /* GCDWebServer.xcconfig */,
+				CA6FF67C29131D724E7FBE02F304AB9B /* GCDWebServer-dummy.m */,
+				BA86E6ADA749885AEFDB84D14B432F6A /* GCDWebServer-prefix.pch */,
+				C553D552B9477C9916566B196B3F2E06 /* GCDWebServer-umbrella.h */,
+				7B5B03197297703046E1108280D6B264 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GCDWebServer";
+			sourceTree = "<group>";
+		};
+		3288BD662BC78478F9056B6AA8B4A0C1 /* objective-zip */ = {
+			isa = PBXGroup;
+			children = (
+				DB1B891F54C6A9A3E8696232D562C803 /* adler32.c */,
+				3474803106AE844B2C212F4CF470E6BA /* compress.c */,
+				D473959E79775600CB9BB60DFA8E7D6C /* crc32.c */,
+				E5AE672318B747C05ED9E204F2E23840 /* crc32.h */,
+				9821A74A653D7A022FBC67322A5E2857 /* crypt.h */,
+				B76A7D94488F68A52B0F47C612BD4234 /* deflate.c */,
+				4BEFF47E30E97CDA160C42FCADF973E8 /* deflate.h */,
+				D5A5E9BCBC8608C10DA0FDF782AA1CCC /* gzclose.c */,
+				A91BF13FC3258BD4D4099D3A1AF4E4A0 /* gzguts.h */,
+				4EF73BC281E8E44DB671D5F3DFE7BF1B /* gzlib.c */,
+				9F0E5578B41048DFC033F65A143CD993 /* gzread.c */,
+				2D6ED2E03ECFEC5FC6ABDB756CEDA94C /* gzwrite.c */,
+				24867CCA5A5EB57AF04707900858F956 /* infback.c */,
+				AD84F599E32E0A644C297C7C82F54089 /* inffast.c */,
+				550B6A8EE2EBD072CC532A1BBEE964B5 /* inffast.h */,
+				62591648B3872BEA59B2DF53D9403B3C /* inffixed.h */,
+				7E6278D9442A30A7EBD1DB846D69E243 /* inflate.c */,
+				2FEF35D438AE643610C2667B269027B9 /* inflate.h */,
+				8FA2FC2356FF4AD42DFB393E604A6173 /* inftrees.c */,
+				629FE9B7AD1E53172FFC46A4C8F3CAF6 /* inftrees.h */,
+				41E05E4F9B95331622CF81144CD81B87 /* ioapi.c */,
+				711504238DC310DA48D1507D3C96B945 /* ioapi.h */,
+				6D4C7939513E11E85B70EAA92E9FDB48 /* Objective-Zip.h */,
+				2303316A05E48E17CEC56EEBE929F53B /* Objective-Zip+NSError.h */,
+				0FBB064FF6BDBB2D5FDBD4F030C99833 /* OZFileInZipInfo.h */,
+				19E374E6482C2A0804E73BE9C7AE809F /* OZFileInZipInfo.m */,
+				D9DBE7811D58990FDFC1552857269FFD /* OZFileInZipInfo+Internals.h */,
+				BBBB4263F8FE46E35853051B9F10BC25 /* OZZipCompressionLevel.h */,
+				3B02E1E4CE0CC73D0A014BCDC5E0D0B8 /* OZZipException.h */,
+				F52A2D839FC08894AE5C9B729DC3809C /* OZZipException.m */,
+				668D464B8CE622D98CD749060FE62FA9 /* OZZipException+Internals.h */,
+				BA167B46EE24F9857090B6057C7730FF /* OZZipFile.h */,
+				E402EE03E3CC398577E176B3EC96B56D /* OZZipFile.m */,
+				5756A50CBAD2ADB6E2650FF75FC626C9 /* OZZipFile+NSError.h */,
+				88B9C74F66DD0F74DE438490C7F52BD9 /* OZZipFile+Standard.h */,
+				643B89B15FAD8ACAFA7E5D988BE995FE /* OZZipFileMode.h */,
+				0AB22175C0FCD15005B016CFCCF1A5C9 /* OZZipReadStream.h */,
+				85105E7A9271C881A8F3587DD16CD456 /* OZZipReadStream.m */,
+				F1659D551CB383F947F964721167AEAA /* OZZipReadStream+Internals.h */,
+				72B3EC59351A9D418B0959A6EE9F1518 /* OZZipReadStream+NSError.h */,
+				948EB0A192AA50BEC9114FD0CBFA25B6 /* OZZipReadStream+Standard.h */,
+				59BF80D4A6CCAF55ECB85E062A7943EE /* OZZipWriteStream.h */,
+				0CD0FC6F28EBE38ED36A954E28881353 /* OZZipWriteStream.m */,
+				D2DFA89073BECC79ABC7839DDA643D68 /* OZZipWriteStream+Internals.h */,
+				814EEEA6DC0364100744FDB76E084651 /* OZZipWriteStream+NSError.h */,
+				A629558F3FFFB88D1628DB4F167A71D7 /* OZZipWriteStream+Standard.h */,
+				D200BCBCC68445EF38AD26AB0DBECBC8 /* trees.c */,
+				D3F8C0F13C09C86A7B96BEA09054892E /* trees.h */,
+				966C6DE645AC5283E822D0D958E7CF7C /* uncompr.c */,
+				8CE3BD8F0645FBA9DC5305F4F4109606 /* unzip.c */,
+				DCE67C92CD6E530F96BAB114EB235871 /* unzip.h */,
+				B2E17FEC5749B188F168C23C2CA8FC1E /* zconf.h */,
+				54119EC55B8699FAAF9313BDD6BFDE80 /* zip.c */,
+				14EF202AB03BC418FDD30FE6A7665EC8 /* zip.h */,
+				E73F7E8BD560EA68CB1CA2D48CB7ECF6 /* zlib.h */,
+				D39075189433FA1167C2F26698774CD3 /* zutil.c */,
+				15EB8AE953C4C623CB6A44A33F53341D /* zutil.h */,
+				BA925ACD48B1E30DE9A2CFF6637F63E9 /* Support Files */,
+			);
+			name = "objective-zip";
+			path = "objective-zip";
+			sourceTree = "<group>";
+		};
+		44AB99172C4EA9168F91F5403674F7AC /* Pods-TheOnePlus */ = {
+			isa = PBXGroup;
+			children = (
+				21D8B4982198F4CFB9CB04C9F607757F /* Info.plist */,
+				57BE2E869512D26511DC044507DA4C85 /* Pods-TheOnePlus.modulemap */,
+				E80165972B5BF02A1BB00932426968C1 /* Pods-TheOnePlus-acknowledgements.markdown */,
+				FF8C7449CEA151860EB4C83648AEC354 /* Pods-TheOnePlus-acknowledgements.plist */,
+				1AFD6A759EEE2A82E395433FC202AD3C /* Pods-TheOnePlus-dummy.m */,
+				BA0982DF7132587E882E71D69C5B6684 /* Pods-TheOnePlus-frameworks.sh */,
+				2DF566D4E24D2FB789BAE200D649F4C2 /* Pods-TheOnePlus-resources.sh */,
+				8E7AA11EC899493A4B51712D57A3D63D /* Pods-TheOnePlus-umbrella.h */,
+				BF6483128F91B59CE9CDE160477485D9 /* Pods-TheOnePlus.debug.xcconfig */,
+				70FA9DB91951ABC8D3FFE028FC04E647 /* Pods-TheOnePlus.release.xcconfig */,
+			);
+			name = "Pods-TheOnePlus";
+			path = "Target Support Files/Pods-TheOnePlus";
+			sourceTree = "<group>";
+		};
+		6F69A033BB39D4B2A633551766E9B533 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				32536385980050F9E865517962806B8A /* GCDWebServer.h */,
+				DF0F29403DC8027E048635E3A33503A9 /* GCDWebServer.m */,
+				AA4841F9A9D5E2A79EC2CD414C14C279 /* GCDWebServerConnection.h */,
+				DC6BEF7B7625593842989AC44273BEF2 /* GCDWebServerConnection.m */,
+				938A2D4BAE22BC14B4BAB8E2E9CA1B7C /* GCDWebServerDataRequest.h */,
+				B93C209D3EBD6E3CC536F3BD68271E27 /* GCDWebServerDataRequest.m */,
+				F36F15769B8AF1D0F3F70A6C6817092F /* GCDWebServerDataResponse.h */,
+				D557E6DC2242F2C06F8D1CCE585E64BF /* GCDWebServerDataResponse.m */,
+				75055678ADED819CE76446F167EB1D96 /* GCDWebServerErrorResponse.h */,
+				BC6F86249F7B604EE7DB32C1AC27022A /* GCDWebServerErrorResponse.m */,
+				F9138580C81851C4CBF1AFAF391570D7 /* GCDWebServerFileRequest.h */,
+				2DB5D8BFB8001D2FB055426602FEA14C /* GCDWebServerFileRequest.m */,
+				E601B3628254D80B061440DB53BF6309 /* GCDWebServerFileResponse.h */,
+				1F65E9CB15E63B84067DFD0F198E5DA1 /* GCDWebServerFileResponse.m */,
+				33AF4DFD274FC369A5A768FB1C9B05EF /* GCDWebServerFunctions.h */,
+				0F690AEFA7533914322AB9A25EA67209 /* GCDWebServerFunctions.m */,
+				C26E84336287A424923E8185726147F5 /* GCDWebServerHTTPStatusCodes.h */,
+				3B8217DD7A410EB6D084DD973FC4837F /* GCDWebServerMultiPartFormRequest.h */,
+				BC586E50073DB4E337667539E507A0B5 /* GCDWebServerMultiPartFormRequest.m */,
+				52883EFCB962D56B987EB18F2069389C /* GCDWebServerPrivate.h */,
+				E87FE534A5617F16E5559A2B3EF23A6B /* GCDWebServerRequest.h */,
+				E6C490A9D26E437188DB7C21EA936AFB /* GCDWebServerRequest.m */,
+				1E61FC6FC3940315957ECAA164B6ECA8 /* GCDWebServerResponse.h */,
+				6F5961E968A3F57178A7602A25097DBA /* GCDWebServerResponse.m */,
+				10DA05B4852AC10386580D22B10D5BD2 /* GCDWebServerStreamedResponse.h */,
+				3915B6C16B3B37EF5A9E34B54A3C05CB /* GCDWebServerStreamedResponse.m */,
+				6A97A760F009C9362E42F1A4E4F4CAFC /* GCDWebServerURLEncodedFormRequest.h */,
+				1498AC33DCD2548111928AB38A03F975 /* GCDWebServerURLEncodedFormRequest.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		71AD09C48CE5E223F5EAACEA1EF87B01 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44AB99172C4EA9168F91F5403674F7AC /* Pods-TheOnePlus */,
+				1CCC49CABC9225DEE43899211F7B6F41 /* Pods-TheOnePlusTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				A83BCF78EB8545279F436986365C32F3 /* Pods */,
+				BDC7144FDC6A0612EB4B55E00E7BC240 /* Products */,
+				71AD09C48CE5E223F5EAACEA1EF87B01 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		816AB1795C1BD790556BA6598B3107DB /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				6F69A033BB39D4B2A633551766E9B533 /* Core */,
+				296A020EF8957D44386EA9B2BBE0CFB0 /* Support Files */,
+			);
+			name = GCDWebServer;
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		A83BCF78EB8545279F436986365C32F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				816AB1795C1BD790556BA6598B3107DB /* GCDWebServer */,
+				3288BD662BC78478F9056B6AA8B4A0C1 /* objective-zip */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADCB15BDF581CC579CFB5E9B75661C0E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				915DFDF33AD8CC026A6227714AA70585 /* CFNetwork.framework */,
+				6EAFE613D6D03488BDD2830FB5AD31FC /* Foundation.framework */,
+				0B83D360A162650AB55409AB85C29D8C /* MobileCoreServices.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BA925ACD48B1E30DE9A2CFF6637F63E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBD255AB29FE0BA1FDAFD2EAE61DD06A /* Info.plist */,
+				96D27EB192CD13417DC7F26B4D786C52 /* objective-zip.modulemap */,
+				296EFC26F97F93713A34CD5580DEFC80 /* objective-zip.xcconfig */,
+				A4309E2D2864A89B78C42B7E56DEE1A3 /* objective-zip-dummy.m */,
+				C429AD1C7588F13D4F91587DE9050541 /* objective-zip-prefix.pch */,
+				10A030D49C43095003F63F2DCCFA1DC9 /* objective-zip-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/objective-zip";
+			sourceTree = "<group>";
+		};
+		BDC7144FDC6A0612EB4B55E00E7BC240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B031CEFA3BAC5CEA290FB1A50F82CE8E /* GCDWebServer.framework */,
+				6B604DE858FEC6304553B040E239C3D2 /* objective_zip.framework */,
+				B43DCB8183580047E8C0829F698EA6E7 /* Pods_TheOnePlus.framework */,
+				16C13498EB2DFA6C750772154327B31B /* Pods_TheOnePlusTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3BA0FB59F7BF97E8494BFE0319D7BF49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D39919E7A93EF730A42C5454FE14DA /* GCDWebServer-umbrella.h in Headers */,
+				C7C59EABCA3DDF9027315567A86633C9 /* GCDWebServer.h in Headers */,
+				BEC201BABAE91076042A1E129F4DA3C3 /* GCDWebServerConnection.h in Headers */,
+				7FAF962B8C7835FE24B87E0491ABD3BF /* GCDWebServerDataRequest.h in Headers */,
+				93F748D723B8A26F9F86DEE7517ECE3E /* GCDWebServerDataResponse.h in Headers */,
+				DC09F868362D0A2A04B9F976EA736327 /* GCDWebServerErrorResponse.h in Headers */,
+				B4911B17CF238F3346307208CB00AEB2 /* GCDWebServerFileRequest.h in Headers */,
+				BF2F9CB14A46386124DA587D5601A8CF /* GCDWebServerFileResponse.h in Headers */,
+				DE59D3775F15714D2A4D6E0493982534 /* GCDWebServerFunctions.h in Headers */,
+				A7DB03F2E311A12C08C6ABA437DA5D7D /* GCDWebServerHTTPStatusCodes.h in Headers */,
+				D6CB3B96FE8AE0307F1F8959E648056C /* GCDWebServerMultiPartFormRequest.h in Headers */,
+				DC031CF0E61CC9BB8CA74D347D6AF8AB /* GCDWebServerPrivate.h in Headers */,
+				722A5AF46F8C5D56564E86D84F29347E /* GCDWebServerRequest.h in Headers */,
+				E9FA66200123610C2387FF3196460246 /* GCDWebServerResponse.h in Headers */,
+				6B80C04509C2C2D5835E7BA7DAA79149 /* GCDWebServerStreamedResponse.h in Headers */,
+				7E7FD57AF138183D9FF3658B84E6C0A0 /* GCDWebServerURLEncodedFormRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D653CF8492043B3611ED785A13C05AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D403DA9FDFF1CB438432D2A886EE95D0 /* Pods-TheOnePlus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F0E003ECBE3A6B13CB29653DDCA75CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D8EE4CDB10BCD75524B20682CD8D34 /* Pods-TheOnePlusTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7988036E9EB06E60FD014193C9AE5234 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D57C25D7F12F0DB283D61269A2B1C13 /* crc32.h in Headers */,
+				2C64070AB58020657C89C66D3697EEE1 /* crypt.h in Headers */,
+				3A40B0273EBE8F2A5330AD047FE10B6D /* deflate.h in Headers */,
+				D7F04B2D4234193B1F2E2419B9B3052E /* gzguts.h in Headers */,
+				B91C37A667572E83ED642C300636947A /* inffast.h in Headers */,
+				8996AAE15D147417F2B28C49100CA0C3 /* inffixed.h in Headers */,
+				D7DEF1435ABFEFA3C36D3AACB4C66A2C /* inflate.h in Headers */,
+				24FE87BB7A3BEEC3B95E45C6BB2CC4EC /* inftrees.h in Headers */,
+				0BFF16CDC54ED42DF2BCAB0A025A2C42 /* ioapi.h in Headers */,
+				758D8A48DA34099164E329FC89A510AF /* Objective-Zip+NSError.h in Headers */,
+				5969C757CE145FEF447C2AA8AE1D1C63 /* objective-zip-umbrella.h in Headers */,
+				01CC7BED563BC92F973240082CCC3EB5 /* Objective-Zip.h in Headers */,
+				9BB24A1030A95E2D99B669016488EE59 /* OZFileInZipInfo+Internals.h in Headers */,
+				6C2D5C5F633436CB95B533DF89C54331 /* OZFileInZipInfo.h in Headers */,
+				D157BD05CE981DC22C4CF6B1282D4691 /* OZZipCompressionLevel.h in Headers */,
+				47A63D09D0644A54AD9064A040128979 /* OZZipException+Internals.h in Headers */,
+				7ACB219B50BF7C921B4C5EA96367ECD4 /* OZZipException.h in Headers */,
+				4631CF4F8925E6ECA17190649F3D9540 /* OZZipFile+NSError.h in Headers */,
+				0DEDD8034D379582F64147FA07EAB383 /* OZZipFile+Standard.h in Headers */,
+				D4DE030190B007AACA278FC58074ADAE /* OZZipFile.h in Headers */,
+				3E6BB057645053296248EFAECD2C332B /* OZZipFileMode.h in Headers */,
+				C858B21AC2ADD19BAB4B61055F5E8795 /* OZZipReadStream+Internals.h in Headers */,
+				46038618276079EED5675FDB775E3167 /* OZZipReadStream+NSError.h in Headers */,
+				1B0CD871957F5030FAACDB5D2A544A3D /* OZZipReadStream+Standard.h in Headers */,
+				C379F7F0202E7678A76B1071F245D0F4 /* OZZipReadStream.h in Headers */,
+				86230137AACC52F4BA830C01E1890502 /* OZZipWriteStream+Internals.h in Headers */,
+				E3EE1E3AA75AC6BAFE131D12A5B73081 /* OZZipWriteStream+NSError.h in Headers */,
+				8A6B1F6E97C96132FA8A7BABA1CB59B9 /* OZZipWriteStream+Standard.h in Headers */,
+				76EA0DB3D0E52109CBF1803B04FA9B40 /* OZZipWriteStream.h in Headers */,
+				872E9FD6472730C9F337847CDC19446D /* trees.h in Headers */,
+				4904098367CDCC52AD03F11B7FDD0652 /* unzip.h in Headers */,
+				9DE73E9716BABA5D3BF9A2CE378A74DB /* zconf.h in Headers */,
+				8C129612B02A6F3036D9635269019A6D /* zip.h in Headers */,
+				1D9C6C52A0AE89EF232EC3DF2085BB23 /* zlib.h in Headers */,
+				68F975191AD94A813469E43D0EBEA8D3 /* zutil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0981F1144D71434F31C3EC2F9CB248C7 /* Pods-TheOnePlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D65B6040C5628F5E9CAFBF04C93D514 /* Build configuration list for PBXNativeTarget "Pods-TheOnePlus" */;
+			buildPhases = (
+				D72935EEFCE80B67576A47CE7C100615 /* Sources */,
+				A57065AD85CC2311837B3A6444166A11 /* Frameworks */,
+				5D653CF8492043B3611ED785A13C05AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE294ADE642AB97D8AEA4CC039061677 /* PBXTargetDependency */,
+				0680A93631CED443581C0EA9B207E670 /* PBXTargetDependency */,
+			);
+			name = "Pods-TheOnePlus";
+			productName = "Pods-TheOnePlus";
+			productReference = B43DCB8183580047E8C0829F698EA6E7 /* Pods_TheOnePlus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1252D2FE5A3F0266E8959BB670344352 /* GCDWebServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F4D36572763B40C3A8B1A51F58E3A0 /* Build configuration list for PBXNativeTarget "GCDWebServer" */;
+			buildPhases = (
+				96B50ABFE887FC9A0409FE45E447B095 /* Sources */,
+				B4492D2026C6838F33DD08B302F3E503 /* Frameworks */,
+				3BA0FB59F7BF97E8494BFE0319D7BF49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDWebServer;
+			productName = GCDWebServer;
+			productReference = B031CEFA3BAC5CEA290FB1A50F82CE8E /* GCDWebServer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1CD5D4A8EC8527E51F41D042C632C612 /* objective-zip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E79966ED0B7CE9F06E6A730EC1F9E66 /* Build configuration list for PBXNativeTarget "objective-zip" */;
+			buildPhases = (
+				2252D2516A5328FFDED297BE8BE2C4C1 /* Sources */,
+				2A02F9AF91BB22E0DB33D08715332087 /* Frameworks */,
+				7988036E9EB06E60FD014193C9AE5234 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "objective-zip";
+			productName = "objective-zip";
+			productReference = 6B604DE858FEC6304553B040E239C3D2 /* objective_zip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65F8A5A341BBE22C6E99F8F45A1D5FEB /* Pods-TheOnePlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C02002987EE01D62C7800D306EBE26 /* Build configuration list for PBXNativeTarget "Pods-TheOnePlusTests" */;
+			buildPhases = (
+				EFBB13EF4369EB5EF6C70DD67EBD9018 /* Sources */,
+				FA170F1A5B19A40E6ADA8C6344077464 /* Frameworks */,
+				5F0E003ECBE3A6B13CB29653DDCA75CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TheOnePlusTests";
+			productName = "Pods-TheOnePlusTests";
+			productReference = 16C13498EB2DFA6C750772154327B31B /* Pods_TheOnePlusTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BDC7144FDC6A0612EB4B55E00E7BC240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1252D2FE5A3F0266E8959BB670344352 /* GCDWebServer */,
+				1CD5D4A8EC8527E51F41D042C632C612 /* objective-zip */,
+				0981F1144D71434F31C3EC2F9CB248C7 /* Pods-TheOnePlus */,
+				65F8A5A341BBE22C6E99F8F45A1D5FEB /* Pods-TheOnePlusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2252D2516A5328FFDED297BE8BE2C4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5055BEE9A95B3361C2EDCF1B60B643B7 /* adler32.c in Sources */,
+				EEB9FCB27A7C0B32908770E6A49472E8 /* compress.c in Sources */,
+				26A6358CBA97ABCBB95469F14BE8DCF8 /* crc32.c in Sources */,
+				D81236F79446F4436298DF6679A2DF6E /* deflate.c in Sources */,
+				D998684C967981EFDF71596CE21EA263 /* gzclose.c in Sources */,
+				620C6443B0AB1E93F292E3C5B892E670 /* gzlib.c in Sources */,
+				61D4C34858EC397A03E41BF60633BA4E /* gzread.c in Sources */,
+				D776816EC5CF8AC86FB6925A8861B2CB /* gzwrite.c in Sources */,
+				B4C20ADC12DD29244C39CD8FDA40B96F /* infback.c in Sources */,
+				A1499995256A0AE4B16C6C69065DB212 /* inffast.c in Sources */,
+				89E8B87AC9B6F3C6C22E6A8125D539A3 /* inflate.c in Sources */,
+				509EE6A28F7B2B0F54A0D4A63CFF2101 /* inftrees.c in Sources */,
+				25059E89AF00C0933C17813BE714AAD8 /* ioapi.c in Sources */,
+				8B42A796A4A2D0DAB57B25CAAF7E52CA /* objective-zip-dummy.m in Sources */,
+				D48CB58BEBA9E67AF8D6325C862EF672 /* OZFileInZipInfo.m in Sources */,
+				388A0F9DB9DD45D2A983F6CC803A9839 /* OZZipException.m in Sources */,
+				DCD9459B7CF7E6187B21DAF947D97DE3 /* OZZipFile.m in Sources */,
+				979558C00E5F8A275186527D1E195A38 /* OZZipReadStream.m in Sources */,
+				2B93EAE7C1711D51F1040A8FA118253F /* OZZipWriteStream.m in Sources */,
+				969735D69905A7CE3FBCF3F24CBD2071 /* trees.c in Sources */,
+				92E32FA4CA96E4CE90B65321E481CB69 /* uncompr.c in Sources */,
+				EB45FFFB4A286FE9DD0F1E762954608C /* unzip.c in Sources */,
+				6551178D478883EF60D81FEDFC27493D /* zip.c in Sources */,
+				CD174AC5EEDA541A985DB0A2D360905A /* zutil.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B50ABFE887FC9A0409FE45E447B095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C767CEEC23B87C28E12514EB40B595 /* GCDWebServer-dummy.m in Sources */,
+				D968E3B8DD541A17BEC730B7002FC70A /* GCDWebServer.m in Sources */,
+				53D351E0789DC20EBFFD379BBEA50A22 /* GCDWebServerConnection.m in Sources */,
+				62E543AFAF89752AB51EEEDE83439292 /* GCDWebServerDataRequest.m in Sources */,
+				3B7554FE6AAD63F8AF65CA5ED3141A7C /* GCDWebServerDataResponse.m in Sources */,
+				17A6C6141E878921A935125A7E83D572 /* GCDWebServerErrorResponse.m in Sources */,
+				7B644CDEFB1543D7A7642386B7B71CB0 /* GCDWebServerFileRequest.m in Sources */,
+				54F6C1DD0DAC79ADCC7178EA81760558 /* GCDWebServerFileResponse.m in Sources */,
+				BFCC96B07137471CEBD04589F3FF98C5 /* GCDWebServerFunctions.m in Sources */,
+				F709CDA8E32FD850396F71FA35DE1C1C /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				AA7BBB6E29D7F28E69B81F07854F18AD /* GCDWebServerRequest.m in Sources */,
+				528723317954B1D0AF5AB63A2F74F2D8 /* GCDWebServerResponse.m in Sources */,
+				CA626FA4E095B938ADE36DE43A6B841B /* GCDWebServerStreamedResponse.m in Sources */,
+				EEDC6F805D83C380D14C45A773AF430D /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72935EEFCE80B67576A47CE7C100615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08040D7E83D4F1FCDBDA6E8A6E3A5EF3 /* Pods-TheOnePlus-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBB13EF4369EB5EF6C70DD67EBD9018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A6210EE9281EEA0CC22A66C85A74B4 /* Pods-TheOnePlusTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0680A93631CED443581C0EA9B207E670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "objective-zip";
+			target = 1CD5D4A8EC8527E51F41D042C632C612 /* objective-zip */;
+			targetProxy = 3C7CB5254D6302CEDE4F6738D02E4210 /* PBXContainerItemProxy */;
+		};
+		BE294ADE642AB97D8AEA4CC039061677 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCDWebServer;
+			target = 1252D2FE5A3F0266E8959BB670344352 /* GCDWebServer */;
+			targetProxy = CD8272BD796B654EE277A6CCDABFB723 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09D72888829131041F9226BEE7E829FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296EFC26F97F93713A34CD5580DEFC80 /* objective-zip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/objective-zip/objective-zip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/objective-zip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/objective-zip/objective-zip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = objective_zip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		144A93715EEC9A47E993DCEA6E290EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD569E52B7427B5A6FE64552036D1A1 /* Pods-TheOnePlusTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TheOnePlusTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TheOnePlusTests/Pods-TheOnePlusTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TheOnePlusTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		20C188142FE2380E1FC973FB98681DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1826FF6288016971C05857D1492460EC /* GCDWebServer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCDWebServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GCDWebServer/GCDWebServer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GCDWebServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72488A07C6B0304471A78A76CEC27780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1826FF6288016971C05857D1492460EC /* GCDWebServer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCDWebServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GCDWebServer/GCDWebServer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GCDWebServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96CF6448051A19C4AADC3FFE6D43E4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA467FB68548EABB823DC8279CD9451 /* Pods-TheOnePlusTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TheOnePlusTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TheOnePlusTests/Pods-TheOnePlusTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TheOnePlusTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8F8572D6E33F9C3916A3015B152C326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296EFC26F97F93713A34CD5580DEFC80 /* objective-zip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/objective-zip/objective-zip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/objective-zip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/objective-zip/objective-zip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = objective_zip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA724F30207983126424BAC1EDB4CE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70FA9DB91951ABC8D3FFE028FC04E647 /* Pods-TheOnePlus.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TheOnePlus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TheOnePlus/Pods-TheOnePlus.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TheOnePlus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF34087370BE8C9D17DA1DFC6B1FCF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF6483128F91B59CE9CDE160477485D9 /* Pods-TheOnePlus.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TheOnePlus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TheOnePlus/Pods-TheOnePlus.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TheOnePlus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D65B6040C5628F5E9CAFBF04C93D514 /* Build configuration list for PBXNativeTarget "Pods-TheOnePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF34087370BE8C9D17DA1DFC6B1FCF20 /* Debug */,
+				BA724F30207983126424BAC1EDB4CE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F4D36572763B40C3A8B1A51F58E3A0 /* Build configuration list for PBXNativeTarget "GCDWebServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72488A07C6B0304471A78A76CEC27780 /* Debug */,
+				20C188142FE2380E1FC973FB98681DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E79966ED0B7CE9F06E6A730EC1F9E66 /* Build configuration list for PBXNativeTarget "objective-zip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F8572D6E33F9C3916A3015B152C326 /* Debug */,
+				09D72888829131041F9226BEE7E829FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C02002987EE01D62C7800D306EBE26 /* Build configuration list for PBXNativeTarget "Pods-TheOnePlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144A93715EEC9A47E993DCEA6E290EE1 /* Debug */,
+				96CF6448051A19C4AADC3FFE6D43E4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

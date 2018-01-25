@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  TheOnePlus
+
+  Created by jilei on 2017/12/28.
+  Copyright © 2017年 jilei. All rights reserved.
+*/
+"Notice" = "Notice";
+"ok" = "OK";
+"cancel" = "Cancel";
+"updateConfig" = "Updating, please restart the app when completion";
+"restartApp" = "Update successfully, please restart the app";
