@@ -26,16 +26,16 @@
 - 预置前端代码zip压缩包，如：client.zip（注意此处压缩包为通过python打包压缩的包，具体原因及用法后面会讲）
 - 修改业务宏定义参数，如:
  
- 1.```HybridResource/route.json 文件中
-  download_url：（修改为自己的下载地址）
-  ```
- 2.```SnowfFlake.pch 文件中
-  #define CurrentHost @"192.168.10.1" //(初始化需要配置的默认代理转发的域名)
-  #define RootSource @"client" （即打包出来的zip的包名即是根目录）
-  ```
- 3.```SnowfFlake-Bridging-Header.h 文件中
-  #define RootHtml @"/index.html"（指定的入口文件）
-  ```
+ 1.HybridResource/route.json 文件中
+  - download_url：（修改为自己的下载地址）
+  
+ 2.SnowfFlake.pch 文件中
+  - #define CurrentHost @"192.168.10.1" //(初始化需要配置的默认代理转发的域名)
+  - #define RootSource @"client" （即打包出来的zip的包名即是根目录）
+  
+ 3.SnowfFlake-Bridging-Header.h 文件中
+  - #define RootHtml @"/index.html"（指定的入口文件）
+  
 
 
 - 前端代码压缩包：
