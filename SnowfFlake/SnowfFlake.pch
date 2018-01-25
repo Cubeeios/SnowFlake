@@ -6,8 +6,8 @@
 //  Copyright © 2017年 jilei. All rights reserved.
 //
 
-#ifndef TheOnePlus_pch
-#define TheOnePlus_pch
+#ifndef SnowfFlake_pch
+#define SnowfFlake_pch
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>

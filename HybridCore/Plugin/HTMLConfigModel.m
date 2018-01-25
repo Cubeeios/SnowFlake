@@ -9,7 +9,7 @@
 #import "HTMLConfigModel.h"
 @implementation HTMLConfigModel
 - (NSString *)getUrl{
-    return @"http://47.91.235.141:8081/app/get-version";
+    return @"http://192.168.10.1/app/get-version";
 }
 
 - (void)parse:(id)obj{
